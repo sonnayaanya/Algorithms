@@ -19,7 +19,7 @@ def rucksack(n, w, items):
     price = 0
     items.sort(key = lambda x: x[2], reverse = True)
     while len(items) > 0:
-        '''unpacking the values of list of lists. Without it you would need to write items[0][0], items[0][1], and     items[0][2] to access these values.'''
+        '''unpacking the values of list of lists. Without it one would need to use items[0][0], items[0][1], and items[0][2] to access the values.'''
         value, volume, ppu = items[0]
         if w > 0:
             if w >= volume:
