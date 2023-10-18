@@ -7,7 +7,7 @@ Sample Output:
 2
 
 # Solution:
-'''
+```
 def fibonacci(n):
     a = 1
     b = 1
@@ -28,4 +28,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-'''
+```
