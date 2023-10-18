@@ -14,6 +14,7 @@ Sample Output:
 
 180.000
 
+# Solution:
 ```
 def rucksack(n, w, items):
     price = 0
