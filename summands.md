@@ -21,7 +21,6 @@ Sample Output 2:
 1 2 3 
 
 # Solution:
-
 def summands(n):
     answer = []
     last_num = 1
@@ -44,32 +43,3 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-n = int(input())
-answer = []
-last_num = 1
-if n == 1:
-    print(1)
-    print(1)
-elif n ==2:
-    print(1)
-    print(2)
-else:
-    while n - last_num > last_num:
-        answer.append(last_num)
-        n -= last_num
-        last_num += 1
-    answer.append(n)
-    print(len(answer))
-    print(*answer)
