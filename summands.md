@@ -21,6 +21,7 @@ Sample Output 2:
 1 2 3 
 
 # Solution:
+```
 def summands(n):
     answer = []
     last_num = 1
