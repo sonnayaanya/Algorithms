@@ -9,10 +9,14 @@ ExtractMax.
 
 6
 Insert 200
+
 Insert 10
+
 ExtractMax
 Insert 5
+
 Insert 500
+
 ExtractMax
 
 
