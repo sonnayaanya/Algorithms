@@ -8,7 +8,6 @@ ExtractMax.
 * Sample Input:
 
 6
-
 Insert 200
 Insert 10
 ExtractMax
@@ -20,7 +19,6 @@ ExtractMax
 * Sample Output:
 
 200
-
 500
 
 # Solution:
