@@ -24,6 +24,7 @@ ExtractMax
 * Sample Output:
 
 200
+
 500
 
 # Solution:
